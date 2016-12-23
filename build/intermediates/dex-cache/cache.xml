@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/rashi/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c23708cdb9e80a144db433e23344a788a1fd6599">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/opencsv-2.3_67a6531848e4d45a24f5dd137cc92520b6b9f5a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.4.0_23b89a3a27cd3d6a4c936ad793c17b053efab3a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v3.0.1/369f9aa48a629b4e92557b37326f42dc3de796e4/MPAndroidChart-v3.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="369f9aa48a629b4e92557b37326f42dc3de796e4">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/MPAndroidChart-v3.0.1_0e52eaa9dda2effe3e332df3859be0440804d1b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.melnykov-floatingactionbutton-1.3.0_05d7f79172c25bb48a7f63c985e261bae055af12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/.gradle/caches/modules-2/files-2.1/com.yahoofinance-api/YahooFinanceAPI/3.5.0/614af927df86e3e5b925bb14daed8600886908e8/YahooFinanceAPI-3.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="614af927df86e3e5b925bb14daed8600886908e8">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/YahooFinanceAPI-3.5.0_577f7198572ceb9c50de26d3123dc1078d70135b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="89507701249388e1ed5ddcf8c41f4ce1be7831ef">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-20.0_2383cc701d25e3563303bf66fa8a6071808c47a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_af5a7a0931bbfb979ee3abf66582820461490c9e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_8d039acb1ade7288ed05b5395ac4e84df2e01257/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a4eef741526faef9ca66aea0f7dc980fc1491f1">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_09827b9fc6a40db0109fe297239e78d005098c48/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="af8e756208a4603de2d089d3ccb4276e628290bf">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a625926b58f2938423387af47880e372a2445276/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.11.0_860cca567ef3812c405eb23dc4568787203b8e4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.0/support-annotations-24.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.0_258e0ea9a23627fe89461859fea7ae881cc17bd1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/exploded-aar/com.jakewharton.timber/timber/4.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76182d2ede06926e942e5a947a130b915b83a489">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton.timber-timber-4.4.0_11bd7bad8e5cff427be407230c24261a9380719b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_fa1f04fb8394d1f879810c679a192fcaedfc8cfa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_e1b1888f1940e5c2b6ea483e67c89ac4820a4768/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_aca8bdf72073f323d8cf9c2b9b1d240bc896da9b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_6970a1583878248d84963a82a9a06865f4ad8233/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_30aa2ec81b02f8b231c20c25dc54d792663d80f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_c0abcec5e96d39f61eeff7ef2a75bcb97e4c0207/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_ccb2cd262d0de3dbc723fb4aa7e1d984a73cb495/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rashi/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.5.0/4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83/okhttp-3.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83">
+        <dex dex="/home/rashi/AndroidStudioProjects/StockHawkAN/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.5.0_2d776b62582afbd0478103620e08d8a5eb5b9ff9/classes.dex" />
+    </item>
+
+</items>
