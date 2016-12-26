@@ -136,7 +136,7 @@ class StockAdapter extends RecyclerView.Adapter<StockAdapter.StockViewHolder> {
 //            Toast.makeText(context, getAdapterPosition(), Toast.LENGTH_LONG).show();
 
             Intent detailActivityIntent=new Intent(context,DetailActivity.class);
-//            detailActivityIntent.putExtra(getString(R.string.symbol),symbol);
+            detailActivityIntent.putExtra("history",cursor.getString(Contract.Quote.POSITION_HISTORY));
             context.startActivity(detailActivityIntent);
         }
 
