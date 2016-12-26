@@ -1,0 +1,194 @@
+[1mdiff --git a/.gradle/3.2.1/taskArtifacts/fileHashes.bin b/.gradle/3.2.1/taskArtifacts/fileHashes.bin[m
+[1mindex 8fac68c..24b7353 100644[m
+Binary files a/.gradle/3.2.1/taskArtifacts/fileHashes.bin and b/.gradle/3.2.1/taskArtifacts/fileHashes.bin differ
+[1mdiff --git a/.gradle/3.2.1/taskArtifacts/fileSnapshots.bin b/.gradle/3.2.1/taskArtifacts/fileSnapshots.bin[m
+[1mindex 573b3b8..ca2ce76 100644[m
+Binary files a/.gradle/3.2.1/taskArtifacts/fileSnapshots.bin and b/.gradle/3.2.1/taskArtifacts/fileSnapshots.bin differ
+[1mdiff --git a/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin b/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin[m
+[1mindex 705ce0a..1f8a4a3 100644[m
+Binary files a/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin and b/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin differ
+[1mdiff --git a/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock b/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock[m
+[1mindex cf87a89..38f1123 100644[m
+Binary files a/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock and b/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock differ
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex 21c4a8a..1163775 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -17,9 +17,7 @@[m
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin" />[m
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock" />[m
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />[m
+[31m-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />[m
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/sync/QuoteSyncJob.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/sync/QuoteSyncJob.java" />[m
+[31m-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />[m
+     </list>[m
+     <ignored path="StockHawk.iws" />[m
+     <ignored path=".idea/workspace.xml" />[m
+[36m@@ -49,19 +47,6 @@[m
+   </component>[m
+   <component name="FileEditorManager">[m
+     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">[m
+[31m-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">[m
+[31m-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">[m
+[31m-          <provider editor-type-id="android-designer2">[m
+[31m-            <state />[m
+[31m-          </provider>[m
+[31m-          <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state relative-caret-position="570">[m
+[31m-              <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />[m
+[31m-              <folding />[m
+[31m-            </state>[m
+[31m-          </provider>[m
+[31m-        </entry>[m
+[31m-      </file>[m
+       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[36m@@ -75,8 +60,8 @@[m
+       <file leaf-file-name="QuoteSyncJob.java" pinned="false" current-in-tab="true">[m
+         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/sync/QuoteSyncJob.java">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state relative-caret-position="351">[m
+[31m-              <caret line="106" column="38" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />[m
+[32m+[m[32m            <state relative-caret-position="36">[m
+[32m+[m[32m              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />[m
+               <folding>[m
+                 <element signature="imports" expanded="true" />[m
+               </folding>[m
+[36m@@ -107,6 +92,16 @@[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[32m+[m[32m      <file leaf-file-name="StockAdapter.java" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/ui/StockAdapter.java">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="540">[m
+[32m+[m[32m              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />[m
+[32m+[m[32m              <folding />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+       <file leaf-file-name="AddStockDialog.java" pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/ui/AddStockDialog.java">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[36m@@ -127,8 +122,8 @@[m
+       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/ui/MainActivity.java">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state relative-caret-position="365">[m
+[31m-              <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />[m
+[32m+[m[32m            <state relative-caret-position="-45">[m
+[32m+[m[32m              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />[m
+               <folding>[m
+                 <element signature="e#4488#4549#0" expanded="true" />[m
+               </folding>[m
+[36m@@ -139,8 +134,8 @@[m
+       <file leaf-file-name="PrefUtils.java" pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/data/PrefUtils.java">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state relative-caret-position="345">[m
+[31m-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />[m
+[32m+[m[32m            <state relative-caret-position="-360">[m
+[32m+[m[32m              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />[m
+               <folding>[m
+                 <element signature="imports" expanded="true" />[m
+                 <element signature="e#415#458#0" expanded="true" />[m
+[36m@@ -2018,6 +2013,7 @@[m
+         <option value="$PROJECT_DIR$/app/src/main/res/values-ar/strings.xml" />[m
+         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />[m
+         <option value="$PROJECT_DIR$/app/src/main/res/layout/add_stock_dialog.xml" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/ui/StockAdapter.java" />[m
+         <option value="$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/sync/QuoteSyncJob.java" />[m
+       </list>[m
+     </option>[m
+[36m@@ -2503,7 +2499,7 @@[m
+       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />[m
+       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />[m
+[31m-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7758064" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />[m
+[32m+[m[32m      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7758064" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />[m
+[36m@@ -2518,7 +2514,7 @@[m
+       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />[m
+[31m-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.67903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />[m
+[32m+[m[32m      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />[m
+[36m@@ -2837,10 +2833,26 @@[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[32m+[m[32m    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yahoofinance-api/YahooFinanceAPI/3.5.0/73aa2975740bc73ba33d1010e135fcb994dab57b/YahooFinanceAPI-3.5.0-sources.jar!/yahoofinance/Stock.java">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="-3375">[m
+[32m+[m[32m          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />[m
+[32m+[m[32m          <folding />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/ui/StockAdapter.java">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="540">[m
+[32m+[m[32m          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />[m
+[32m+[m[32m          <folding />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/data/PrefUtils.java">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="345">[m
+[31m-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />[m
+[32m+[m[32m        <state relative-caret-position="-360">[m
+[32m+[m[32m          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />[m
+           <folding>[m
+             <element signature="imports" expanded="true" />[m
+             <element signature="e#415#458#0" expanded="true" />[m
+[36m@@ -2851,26 +2863,18 @@[m
+     </entry>[m
+     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/ui/MainActivity.java">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="365">[m
+[31m-          <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />[m
+[32m+[m[32m        <state relative-caret-position="-45">[m
+[32m+[m[32m          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />[m
+           <folding>[m
+             <element signature="e#4488#4549#0" expanded="true" />[m
+           </folding>[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yahoofinance-api/YahooFinanceAPI/3.5.0/73aa2975740bc73ba33d1010e135fcb994dab57b/YahooFinanceAPI-3.5.0-sources.jar!/yahoofinance/Stock.java">[m
+[31m-      <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="-3375">[m
+[31m-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />[m
+[31m-          <folding />[m
+[31m-        </state>[m
+[31m-      </provider>[m
+[31m-    </entry>[m
+     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/sync/QuoteSyncJob.java">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="351">[m
+[31m-          <caret line="106" column="38" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />[m
+[32m+[m[32m        <state relative-caret-position="36">[m
+[32m+[m[32m          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />[m
+           <folding>[m
+             <element signature="imports" expanded="true" />[m
+           </folding>[m
+[1mdiff --git a/app/src/main/java/com/udacity/stockhawk/sync/QuoteSyncJob.java b/app/src/main/java/com/udacity/stockhawk/sync/QuoteSyncJob.java[m
+[1mindex 7248a2b..9311620 100644[m
+[1m--- a/app/src/main/java/com/udacity/stockhawk/sync/QuoteSyncJob.java[m
+[1m+++ b/app/src/main/java/com/udacity/stockhawk/sync/QuoteSyncJob.java[m
+[36m@@ -103,7 +103,6 @@[m [mpublic final class QuoteSyncJob {[m
+ [m
+                     quoteCVs.add(quoteCV);}[m
+                 else {[m
+[31m-[m
+                     //if invalid stock[m
+                 }[m
+ [m
