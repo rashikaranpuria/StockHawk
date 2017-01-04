@@ -7,11 +7,11 @@ import android.content.ComponentName;
 import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
-import android.util.Log;
 import android.widget.RemoteViews;
 
 import com.udacity.stockhawk.R;
 import com.udacity.stockhawk.data.Contract;
+import com.udacity.stockhawk.rest.StockWidgetProvider;
 import com.udacity.stockhawk.ui.MainActivity;
 
 import timber.log.Timber;
@@ -44,11 +44,11 @@ public class StockWidgetService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        Log.d(StockWidgetService.class.getSimpleName(), "in on handle intent");
+
         AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(this);
 
         int[] appWidgetIds = appWidgetManager.getAppWidgetIds(new ComponentName(this,
-                StockWidgetService.class));
+                StockWidgetProvider.class));
 
         Uri quoteUri = Contract.Quote.uri;
         Timber.d(quoteUri.toString());
@@ -66,11 +66,11 @@ public class StockWidgetService extends IntentService {
 
         String symbol = data.getString(POSITION_SYMBOL);
 
-        Timber.d(symbol + "is the symbol");
+        Timber.d(symbol + " is the symbol" + "app widget id length : "+ appWidgetIds.length);
 
         for (int appWidgetId : appWidgetIds) {
-            RemoteViews views = new RemoteViews(this.getPackageName(), R.layout.stock_widget);
-            views.setTextViewText(R.id.app_widget_text, "yo yoy");
+            RemoteViews views = new RemoteViews(getPackageName(), R.layout.stock_widget);
+            views.setTextViewText(R.id.app_widget_text, symbol);
             Intent launchIntent=new Intent(this, MainActivity.class);
             PendingIntent pendingIntent = PendingIntent.getActivity(this,0,launchIntent,0);
             views.setOnClickPendingIntent(R.id.widget,pendingIntent);
