@@ -1,14 +1,15 @@
 package com.udacity.stockhawk.rest;
 
-import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
-import android.widget.RemoteViews;
+import android.os.Bundle;
 
-import com.udacity.stockhawk.R;
-import com.udacity.stockhawk.ui.MainActivity;
+import com.udacity.stockhawk.sync.QuoteSyncJob;
+import com.udacity.stockhawk.sync.StockWidgetService;
+
+import timber.log.Timber;
 
 /**
  * Created by rashi on 28/12/16.
@@ -18,22 +19,22 @@ public class StockWidgetProvider extends AppWidgetProvider {
 
     @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
+        context.startService(new Intent(context, StockWidgetService.class));
+    }
 
-        for (int appWidgetId : appWidgetIds) {
-            updateAppWidget(context, appWidgetManager, appWidgetId);
+    @Override
+    public void onAppWidgetOptionsChanged(Context context, AppWidgetManager appWidgetManager, int appWidgetId, Bundle newOptions) {
+        context.startService(new Intent(context, StockWidgetService.class));
+    }
+
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        Timber.d("above on receive in stock widget provider"+intent.getAction());
+
+        super.onReceive(context, intent);
+        if(QuoteSyncJob.ACTION_WIDGET_UPDATED.equals(intent.getAction())){
+            Timber.d("on receive in stock widget provider");
+            context.startService(new Intent(context, StockWidgetService.class));
         }
-
     }
-
-    private void updateAppWidget(Context context, AppWidgetManager appWidgetManager, int appWidgetId) {
-
-        RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.stock_widget);
-
-        Intent launchIntent=new Intent(context, MainActivity.class);
-        PendingIntent pendingIntent=PendingIntent.getActivity(context,0,launchIntent,0);
-        views.setOnClickPendingIntent(R.id.widget,pendingIntent);
-        // Instruct the widget manager to update the widget
-        appWidgetManager.updateAppWidget(appWidgetId, views);
-    }
-
 }
