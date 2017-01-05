@@ -22,7 +22,6 @@
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/stock_list"
-        android:background="@color/colorPrimaryDark"></ListView>
+        android:id="@+id/stock_list"></ListView>
 
 </LinearLayout>
