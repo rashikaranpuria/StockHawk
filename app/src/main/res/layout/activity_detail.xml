@@ -7,5 +7,5 @@
         android:text="TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textDetail" />
+        android:id="@+id/textDetail"/>
 </LinearLayout>
