@@ -34,7 +34,7 @@ public class StockWidgetProvider extends AppWidgetProvider {
                                 int appWidgetId) {
 
         Timber.d("in on updatind the widget ");
-                CharSequence widgetText = context.getString(R.string.app_name);
+        CharSequence widgetText = context.getString(R.string.app_name);
         // Construct the RemoteViews object
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.stock_widget);
         views.setTextViewText(R.id.app_widget_text, widgetText);
@@ -61,7 +61,7 @@ public class StockWidgetProvider extends AppWidgetProvider {
         if(QuoteSyncJob.ACTION_WIDGET_UPDATED.equals(intent.getAction())){
             Timber.d("on receive in stock widget provider");
             AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(context);
-            appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetManager.getAppWidgetIds(new ComponentName(context, StockWidgetProvider.class)), R.layout.stock_widget);
+            appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetManager.getAppWidgetIds(new ComponentName(context, StockWidgetProvider.class)), R.id.stock_list);
         }
     }
 }
