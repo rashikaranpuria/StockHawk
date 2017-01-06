@@ -81,7 +81,7 @@ public class DetailActivity extends AppCompatActivity{
             String pair[] = history_ins[i].split(", ");
             float price = Float.parseFloat(pair[1]);
 //            getDateCurrentTimeZone(Long.parseLong(pair[0]))
-            mLineSet.addPoint(i+"" , price);
+            mLineSet.addPoint("" , price);
             arrayListPrice.add(price);
         }
         findRange(arrayListPrice);
