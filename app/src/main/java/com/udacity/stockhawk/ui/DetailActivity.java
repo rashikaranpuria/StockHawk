@@ -115,14 +115,6 @@ public class DetailActivity extends AppCompatActivity implements LoaderManager.L
             step = 1000;
         }
         Log.d("distance : ", "step : "+String.valueOf(step));
-//        step = maxRange/minRange;
-//        if(maxRange<100){
-//            step=10;
-//        }else if(maxRange<1000){
-//            step=100;
-//        }else{
-//            step=1000;
-//        }
     }
 
 
