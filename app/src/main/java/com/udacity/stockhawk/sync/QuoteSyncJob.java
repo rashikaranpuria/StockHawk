@@ -8,7 +8,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.widget.Toast;
 
+import com.udacity.stockhawk.R;
 import com.udacity.stockhawk.data.Contract;
 import com.udacity.stockhawk.data.PrefUtils;
 
@@ -101,10 +103,11 @@ public final class QuoteSyncJob {
 
                     quoteCV.put(Contract.Quote.COLUMN_HISTORY, historyBuilder.toString());
 
-                    quoteCVs.add(quoteCV);}
+                    quoteCVs.add(quoteCV);
+                }
                 else {
-
-                    //if invalid stock
+                    PrefUtils.removeStock(context, symbol);
+                    Timber.d("invalid stock");
                 }
 
             }

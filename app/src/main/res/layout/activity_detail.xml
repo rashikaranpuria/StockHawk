@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_stock_detail_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,16 +10,106 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textDetail"/>
 
         <com.db.chart.view.LineChartView
             android:background="@color/light_white"
             android:id="@+id/line_chart"
             android:layout_width="match_parent"
             android:layout_height="300dp"/>
-    </LinearLayout>
 
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/extra_details"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/line_labels"
+            android:paddingBottom="@dimen/detail_vertical_padding"
+            android:paddingEnd="@dimen/detail_horizontal_padding"
+            android:paddingLeft="@dimen/detail_horizontal_padding"
+            android:paddingRight="@dimen/detail_horizontal_padding"
+            android:paddingStart="@dimen/detail_horizontal_padding"
+            android:paddingTop="@dimen/detail_vertical_padding">
+
+            <!-- This guideline divides the layout into a left and right half and is used for alignment -->
+            <android.support.constraint.Guideline
+                android:id="@+id/horizontal_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5"
+                tools:layout_editor_absoluteY="0dp"
+                tools:layout_editor_absoluteX="288dp" />
+
+            <!-- Symbol label -->
+            <TextView
+                android:id="@+id/symbol_label"
+                style="@style/DetailLabel"
+                android:text="@string/symbol_label"
+                app:layout_constraintBottom_toTopOf="@+id/price_label"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.33"/>
+
+            <!-- Symbol measurement -->
+            <TextView
+                android:id="@+id/symbol"
+                style="@style/ExtraWeatherMeasurement"
+                app:layout_constraintBottom_toBottomOf="@+id/symbol_label"
+                app:layout_constraintLeft_toLeftOf="@+id/horizontal_middle"
+                tools:text="38%" />
+
+            <!-- Price label -->
+            <TextView
+                android:id="@+id/price_label"
+                style="@style/DetailLabel"
+                android:text="@string/price_label"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <!-- Price measurement -->
+            <TextView
+                android:id="@+id/price"
+                style="@style/ExtraWeatherMeasurement"
+                app:layout_constraintBottom_toBottomOf="@+id/price_label"
+                app:layout_constraintLeft_toLeftOf="@+id/horizontal_middle"
+                tools:text="995 hPa" />
+
+            <!-- Abs. change label -->
+            <TextView
+                android:id="@+id/abs_change_label"
+                style="@style/DetailLabel"
+                android:text="@string/abs_change_label"
+                app:layout_constraintBottom_toTopOf="@+id/per_change_label"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/price_label"
+                app:layout_constraintVertical_bias="0.65999997"/>
+
+            <!-- Abs. change measurement -->
+            <TextView
+                android:id="@+id/abs_change"
+                style="@style/ExtraWeatherMeasurement"
+                app:layout_constraintBottom_toBottomOf="@+id/abs_change_label"
+                app:layout_constraintLeft_toLeftOf="@+id/horizontal_middle"
+                tools:text="4km/h NW"/>
+
+            <!-- Percentage change label -->
+            <TextView
+                android:id="@+id/per_change_label"
+                style="@style/DetailLabel"
+                android:text="@string/per_change_label"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/abs_change_label"
+                app:layout_constraintVertical_bias="0.65999997"/>
+
+            <!-- Percentage change measurement -->
+            <TextView
+                android:id="@+id/per_change"
+                style="@style/ExtraWeatherMeasurement"
+                app:layout_constraintBottom_toBottomOf="@+id/per_change_label"
+                app:layout_constraintLeft_toLeftOf="@+id/horizontal_middle"
+                tools:text="4km/h NW"/>
+
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
 </ScrollView>

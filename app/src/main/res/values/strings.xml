@@ -41,5 +41,16 @@
     <string name="toast_no_connectivity">Will refresh when network available.</string>
 
     <string name="describe_floatingActionButton">Add a stock symbol</string>
+    <string name="symbol_label">Symbol</string>
+    <string name="price_label">Price</string>
+    <string name="abs_change_label">$ change</string>
+    <string name="per_change_label">% change</string>
+
+    <!--strings passed in intent-->
+    <string name="history">history</string>
+    <string name="symbol">symbol</string>
+    <string name="price">price</string>
+    <string name="abschange">abschange</string>
+    <string name="perchange">perchange</string>
 
 </resources>

@@ -35,6 +35,7 @@ public class AddStockDialog extends DialogFragment {
         ButterKnife.bind(this, custom);
 
         stock.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 addStock();
@@ -52,8 +53,10 @@ public class AddStockDialog extends DialogFragment {
                 });
         builder.setNegativeButton(getString(R.string.dialog_cancel), null);
 
-        Dialog dialog = builder.create();
+        final Dialog dialog = builder.create();
+
         dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
+
         return dialog;
     }
 

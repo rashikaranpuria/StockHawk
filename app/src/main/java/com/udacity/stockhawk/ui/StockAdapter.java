@@ -9,7 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.udacity.stockhawk.R;
 import com.udacity.stockhawk.data.Contract;
@@ -133,10 +132,12 @@ class StockAdapter extends RecyclerView.Adapter<StockAdapter.StockViewHolder> {
             int symbolColumn = cursor.getColumnIndex(Contract.Quote.COLUMN_SYMBOL);
             clickHandler.onClick(cursor.getString(symbolColumn));
 
-//            Toast.makeText(context, getAdapterPosition(), Toast.LENGTH_LONG).show();
-
             Intent detailActivityIntent=new Intent(context,DetailActivity.class);
-            detailActivityIntent.putExtra("history",cursor.getString(Contract.Quote.POSITION_HISTORY));
+            detailActivityIntent.putExtra(context.getString(R.string.history) ,cursor.getString(Contract.Quote.POSITION_HISTORY));
+            detailActivityIntent.putExtra(context.getString(R.string.symbol), cursor.getString(Contract.Quote.POSITION_SYMBOL));
+            detailActivityIntent.putExtra(context.getString(R.string.price), "$" + String.format("%.2f", cursor.getDouble(Contract.Quote.POSITION_PRICE)));
+            detailActivityIntent.putExtra(context.getString(R.string.abschange), String.format("%.2f", cursor.getDouble(Contract.Quote.POSITION_ABSOLUTE_CHANGE)));
+            detailActivityIntent.putExtra(context.getString(R.string.perchange), String.format("%.2f", cursor.getDouble(Contract.Quote.POSITION_PERCENTAGE_CHANGE)));
             context.startActivity(detailActivityIntent);
         }
 
