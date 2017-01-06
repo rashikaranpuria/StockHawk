@@ -10,4 +10,13 @@
     <color name="material_green_700">#00C853</color>
     <color name="dark">#424242</color>
 
+    <!-- Line graph colors -->
+    <color name="line_set">#2196F3</color>
+    <color name="line_stroke">#2196F3</color>
+    <color name="line_dots">#d2d2d2</color>
+    <color name="line_paint">#df7d8086</color>
+    <color name="line_labels">#5b5d61</color>
+
+    <color name="light_white">#f2f2f2</color>
+
 </resources>
