@@ -73,7 +73,7 @@ public class DetailActivity extends AppCompatActivity implements LoaderManager.L
         initLineChart();
         lineChartView.addData(mLineSet);
         Log.d("step.minrange.maxrange", String.valueOf(step) + " " + String.valueOf(minRange) + " " + String.valueOf(maxRange));
-        lineChartView.setAxisBorderValues(minRange,maxRange,maxRange-minRange-10);
+        lineChartView.setAxisBorderValues(minRange,maxRange,step);
         lineChartView.show();
     }
 
