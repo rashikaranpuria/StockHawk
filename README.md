@@ -17,7 +17,7 @@
 
 ###Libraries
 * Butter knife
-* MPAndroidChart</a>
+* MPAndroidChart
 * YahooFinanceAPI
 * opencsv
 * okhttp
